@@ -63,15 +63,11 @@ int main()
     car1.model = "220";
     car1.year = 2016;
     car1.color = "black";
-    car1.accelerate();
-    car1.brake();
 
     car2.name = "BMW";
     car2.model = "serie 1";
     car2.year = 2016;
     car2.color = "white";
-    car2.accelerate();
-    car2.brake();
 
     // printing car 2 information :
     cout << "information of car one : " << endl;
@@ -79,6 +75,8 @@ int main()
     cout << "Model : " << car1.model << endl;
     cout << "year : " << car1.year << endl;
     cout << "color : " << car1.color << endl;
+    car1.accelerate();
+    car1.brake();
 
     cout << "\n";
     cout << "\n";
@@ -89,4 +87,6 @@ int main()
     cout << "Model : " << car2.model << endl;
     cout << "year : " << car2.year << endl;
     cout << "color : " << car2.color << endl;
+    car2.accelerate();
+    car2.brake();
 }
